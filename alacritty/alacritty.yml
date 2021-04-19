@@ -1,0 +1,45 @@
+env:
+  TERM: alacritty
+
+decorations: none
+
+scrolling:
+  history: 10000
+
+font:
+  normal:
+    family: Inconsolata
+    style: regular
+  bold:
+    family: Inconsolata
+    style: Bold
+  italic:
+    family: Inconstolata
+    style: Italic
+  bold_italic:
+    family: Inconstolata
+    style: Bold Italic
+  size: 8.0
+
+window:
+  padding:
+    x: 24
+    y: 24
+#dynamic_padding: true
+
+colors:
+  primary:
+    background: '#010101'
+    foreground: '#ffffff'
+
+  normal:
+    black: '#1b1d1e'
+    red: '#f92672'
+    green: '#5ab414'
+    yellow: '#fdc21f'
+    blue: '#0066cc'
+    magenta: '#8c54fe'
+    cyan: '#465457'
+    white: '#ccccc6'
+
+background_opacity: 0.4
